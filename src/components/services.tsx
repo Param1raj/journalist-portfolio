@@ -60,7 +60,7 @@ export default function Services() {
   }
 
   return (
-    <section id="services" className="py-24 px-6 md:px-12 max-w-7xl mx-auto scroll-mt-20">
+    <section id="services" className="py-12 px-6 md:px-12 max-w-7xl mx-auto scroll-mt-20">
       {/* Section Header */}
       <div className="mb-16 border-b border-border pb-6 flex flex-col md:flex-row md:items-end justify-between gap-4">
         <div>
