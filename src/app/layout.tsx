@@ -20,24 +20,58 @@ const mono = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Prashant Pal | Multimedia Hindi Journalist, IIMC Alumnus & Editorial Designer",
-  description: "Professional portfolio of Prashant Pal, Hindi Journalism graduate from IIMC New Delhi and former ABP News Editorial Intern. Specialized in field ground reporting, Adobe InDesign layout designs, and verified fact-checking.",
+  metadataBase: new URL("https://prashantpal9.wordpress.com"),
+  title: "Prashant Pal | Bilingual Multimedia Journalist, IIMC Delhi Alumnus & Page Layout Editor",
+  description: "Professional journalism portfolio of Prashant Pal, graduate of Indian Institute of Mass Communication (IIMC) New Delhi & former ABP News Intern. Specialized in ground socio-political beats, Adobe InDesign page layout, and verified editorial fact-checking.",
   keywords: [
     "Prashant Pal",
-    "Hindi Journalism",
-    "IIMC New Delhi",
-    "ABP News Intern",
-    "InDesign Designer",
-    "Ground Reporting Delhi",
-    "Fact Checking Hindi",
-    "Video Package Editor",
-    "Delhi Assembly Elections 2025"
+    "Prashant Pal Journalist",
+    "Hindi Journalism Portfolio",
+    "IIMC Hindi Journalism 2026 Alumnus",
+    "ABP News Intern Desk Delhi",
+    "Ground Reporter Delhi Noida",
+    "Adobe InDesign Newspaper Layout Editor",
+    "Hindi Fact Checking Expert",
+    "Multimedia News Packages",
+    "Bilingual Journalist Delhi",
+    "New Delhi Ground Reporter"
   ],
+  alternates: {
+    canonical: "/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
   openGraph: {
-    title: "Prashant Pal | Multimedia Hindi Journalist & Designer",
-    description: "Discover the multimedia portfolio of IIMC alumnus Prashant Pal. Fusing ground video reports, print designs, and copy editing.",
+    title: "Prashant Pal | Bilingual Multimedia Journalist & Page Editor",
+    description: "Discover the ground-level reporting and premium page editorial designs of IIMC alumnus Prashant Pal. Fusing facts, voice, and visual storytelling.",
     type: "website",
     url: "https://prashantpal9.wordpress.com/",
+    siteName: "Prashant Pal Portfolio",
+    locale: "en_IN",
+    images: [
+      {
+        url: "/images/prashant_profile.png",
+        width: 1200,
+        height: 1600,
+        alt: "Prashant Pal - Bilingual Multimedia Journalist",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Prashant Pal | Bilingual Multimedia Journalist & Page Editor",
+    description: "Discover the ground-level reporting and premium page editorial designs of IIMC alumnus Prashant Pal. Fusing facts, voice, and visual storytelling.",
+    images: ["/images/prashant_profile.png"],
+    creator: "@prashant_pal",
   },
 };
 
@@ -48,16 +82,36 @@ const jsonLd = {
       "@type": "Person",
       "@id": "https://prashantpal9.wordpress.com/#person",
       "name": "Prashant Pal",
-      "jobTitle": "Multimedia Hindi Journalist",
+      "jobTitle": "Bilingual Multimedia Journalist & Editorial Page Designer",
       "alumniOf": {
         "@type": "EducationalOrganization",
-        "name": "Indian Institute of Mass Communication (IIMC), New Delhi"
+        "name": "Indian Institute of Mass Communication (IIMC), New Delhi",
+        "url": "https://iimc.nic.in/"
       },
-      "knowsAbout": ["Hindi Journalism", "Ground Reporting", "Adobe InDesign", "Video Editing", "Fact-Checking"],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "ABP News Network",
+        "logo": "https://news.abplive.com/assets/images/logo.png"
+      },
+      "knowsAbout": [
+        "Hindi Journalism",
+        "Ground Reporting",
+        "Adobe InDesign Page Layouts",
+        "Video Editing & Mobile Journalism",
+        "Fact-Checking & Source Verification"
+      ],
       "url": "https://prashantpal9.wordpress.com/",
+      "image": "https://prashantpal9.wordpress.com/images/prashant_profile.png",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New Delhi",
+        "addressRegion": "Delhi",
+        "addressCountry": "India"
+      },
       "sameAs": [
         "https://www.linkedin.com/in/prashant-pal-58487b282",
-        "https://prashantpal.stck.me/"
+        "https://prashantpal.stck.me/",
+        "mailto:prashantpal9@wordpress.com"
       ]
     },
     {

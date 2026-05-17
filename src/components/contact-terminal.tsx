@@ -75,7 +75,7 @@ export default function ContactTerminal() {
               <CheckCircle2 className="w-4 h-4" />
             </div>
             <p className="text-[10px] text-muted-foreground leading-normal">
-              <strong>End-to-End Encrypted</strong>: Wire submissions bypass third-party layers and route directly onto the journalist's active terminal log.
+              <strong>End-to-End Encrypted</strong>: Wire submissions bypass third-party layers and route directly onto the journalist&apos;s active terminal log.
             </p>
           </div>
         </div>
